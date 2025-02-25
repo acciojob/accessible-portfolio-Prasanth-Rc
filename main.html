@@ -7,6 +7,41 @@
 </head>
 
 <body>
+	<h1 role="heading">My Accessible Portfolio</h1>
+
+    <!-- Navigation Bar with ARIA Role -->
+    <nav role="navigation">
+        <ul role="list">
+            <li role="listitem"><a href="#about">About Me</a></li>
+            <li role="listitem"><a href="#projects">Projects</a></li>
+            <li role="listitem"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Profile Image with ARIA Role and Alt Text for Accessibility -->
+    <img src="your-image.jpg" alt="Prasanth" role="img">
+
+    <!-- Brief Description with ARIA Role -->
+    <section id="about" role="section">
+        <h2 role="heading">About Me</h2>
+        <p>I am a passionate developer skilled in HTML, CSS, JavaScript, and more. I love creating accessible and user-friendly websites.</p>
+    </section>
+
+    <!-- Projects List with ARIA Roles -->
+    <section id="projects" role="section">
+        <h2 role="heading">My Projects</h2>
+        <ul role="list">
+            <li role="listitem">Portfolio Website</li>
+            <li role="listitem">Task Management App</li>
+            <li role="listitem">Blog Website</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section with ARIA Role -->
+    <section id="contact" role="section">
+        <h2 role="heading">Contact Me</h2>
+        <p>You can reach me at: <a href="mailto:prasaanthrc99@gmail.com">prasaanthrc99@gmail.com</a></p>
+    </section>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
